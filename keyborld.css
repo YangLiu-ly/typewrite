@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 公共样式 */
+body, ul, p, h1, h2, h3, h4, h5 { padding: 0; margin: 0; }
+
+.clearfix:after { content: ''; display: block; clear: both; }
+
+body { background-color: #252526; }
+
+.app { width: 980px; margin: 0 auto; }
+
+header { height: 104px; }
+
+.content { padding-top: 80px; padding-bottom: 60px; background: linear-gradient(to bottom, #8AB9FF, #EDF6FF); }
+
+.content .word-edit { width: 880px; height: 70px; margin: 0 auto; border: 1px solid #D5D5D5; outline: 1px solid #fff; background-color: #fff; }
+
+.word-edit input { border: none; outline: none; font-size: 18px; width: 880px; height: 35px; margin-top: 35px; }
+
+.content .keyboard { width: 880px; margin: 0 auto; margin-top: 40px; background-color: #9D9CA7; box-sizing: border-box; padding: 8px; border-radius: 5px; overflow: hidden; }
+
+.keyboard a { display: block; color: #000; text-decoration: none; text-align: center; height: 52px; width: 54px; border-radius: 4px; user-select: none; }
+.keyboard .tab-btn { height: 44px; width: 70px; background-color: #DED3E8; border: 4px solid #CAB9D8; }
+.keyboard .enter-btn { height: 44px; width: 108px; margin-top: 5px; position: relative; float: right; margin-right: 5px; text-indent: 20px; line-height: 32px; background-color: #DED3E8; border: 4px solid #CAB9D8; }
+.keyboard .enter-btn:after { content: ''; position: absolute; top: -63px; left: 32px; width: 72px; height: 60px; background-color: #DED3E8; border: 4px solid #CAB9D8; border-bottom: none; border-radius: 4px; }
+.keyboard .Caps-btn { background-color: #DED3E8; border: 4px solid #CAB9D8; width: 92px; height: 44px; }
+.keyboard .shift-btn { width: 129px; height: 44px; background-color: #DED3E8; border: 4px solid #CAB9D8; }
+.keyboard .ctrl-btn { width: 69px; height: 44px; background-color: #DED3E8; border: 4px solid #CAB9D8; }
+.keyboard .space-btn { width: 394px; height: 44px; background-color: #DED3E8; border: 4px solid #CAB9D8; }
+.keyboard .back-btn { width: 53px; height: 44px; background-color: #DED3E8; border: 4px solid #CAB9D8; }
+.keyboard .first-line-btn { float: left; line-height: 22px; font-size: 14px; word-spacing: 50px; margin-right: 3px; }
+.keyboard .second-line-btn, .keyboard .third-line-btn, .keyboard .four-line-btn { float: left; line-height: 44px; font-size: 14px; margin-top: 5px; margin-right: 4px; }
+.keyboard .spacific-symbol { float: left; line-height: 22px; font-size: 14px; word-spacing: 50px; margin-top: 5px; margin-right: 4px; }
+.keyboard .pink-btn { background: url(./imgs/pink-bg.png) no-repeat; }
+.keyboard .blue-btn { background: url(./imgs/blue-bg.png) no-repeat; }
+.keyboard .orange-btn { background: url(./imgs/org-bg.png) no-repeat; }
